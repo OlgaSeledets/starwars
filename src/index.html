@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
     <title>Document</title>
 </head>
 <body>
@@ -35,7 +37,7 @@
             </div>
             <div class="episodes">
                 <h2 class="episodes__title">Предыдущие эпизоды</h2>
-                <div class="slider">
+                <div class="slider owl-carousel">
                     <div class="slider__item">
                         <div class="slider__year">1977</div>
                         <h3 class="slider__title">Эпизод IV:<br> Новая надежда</h3>
@@ -49,6 +51,13 @@
                         <h3 class="slider__title">Эпизод V:<br> Империя наносит ответный удар</h3>
                         <div class="slider__rating">
                             <span class="slider__reting-label">Рейтинг</span>
+                            <span class="slider__reting-stars stars">
+                                <i class="star"></i>
+                                <i class="star"></i>
+                                <i class="star"></i>
+                                <i class="star"></i>
+                                <i class="star star-ou"></i>
+                            </span>
                         </div>
                         <img class="slider__image" src="img/card-film2.png" alt="">
                     </div>
@@ -106,7 +115,8 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
